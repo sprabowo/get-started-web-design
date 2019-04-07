@@ -99,7 +99,13 @@ $color-blue: #68e1fc;
         padding: 32px 0;
     }
     padding: 16px 0;
-    box-shadow: #000 15 2;
+}
+
+.c-footer {
+    @media screen and (min-width: 769px) {
+        padding: 32px 0;
+    }
+    padding: 16px 0;
 }
 
 .c-header-logo {

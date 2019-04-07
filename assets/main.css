@@ -2530,10 +2530,15 @@ h1, h2, h3, h4, h5, h6 {
       text-align: center; } }
 
 .c-header {
-  padding: 16px 0;
-  box-shadow: #000 15 2; }
+  padding: 16px 0; }
   @media screen and (min-width: 769px) {
     .c-header {
+      padding: 32px 0; } }
+
+.c-footer {
+  padding: 16px 0; }
+  @media screen and (min-width: 769px) {
+    .c-footer {
       padding: 32px 0; } }
 
 .c-header-logo {
