@@ -1,0 +1,16 @@
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+$primary-color: #A37;
+
+#title {
+	  color: $primary-color;
+}
+
+h1 { 
+	text-align: center;
+ }

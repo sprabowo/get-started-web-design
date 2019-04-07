@@ -1,0 +1,11 @@
+html {
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+#title {
+  color: #A37; }
+
+h1 {
+  text-align: center; }
