@@ -1,0 +1,29 @@
+$enable-grid-classes: true !default;
+$grid-columns: 12 !default;
+$grid-gutter-width: 0px !default;
+
+$container-max-widths: (sm: 540px,
+md: 720px,
+lg: 1108px,
+xl: 1500px) !default;
+
+$grid-breakpoints: (
+  xs: 0px,
+  sm: 320px,
+  md: 576px,
+  lg: 769px,
+  xl: 1700px
+) !default;
+
+$spacer: 8px !default;
+$spacers: () !default;
+$spacers: map-merge((
+ 0: 0,
+ 1: ($spacer * 1),
+ 2: ($spacer * 2),
+ 3: ($spacer * 3),
+ 4: ($spacer * 4),
+ 5: ($spacer * 5)
+), $spacers);
+
+$displays: none, inline, inline-block, block, table, table-row, table-cell, flex, inline-flex !default;

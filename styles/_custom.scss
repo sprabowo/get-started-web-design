@@ -1,0 +1,133 @@
+// reset
+:root {
+    font-size: 16px;
+    color: #4a4a4a;
+    font-family: 'Roboto';
+}
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+section {
+    @media screen and (min-width: 769px) {
+        margin-bottom: 72px;
+    }
+    margin-bottom: 48px;
+}
+.container-fluid {
+    > .container {
+        @media screen and (max-width: 767px) {
+            padding: 0 16px;
+        }
+    }
+}
+p {
+    @media screen and (min-width: 769px) {
+        font-size: 1rem;
+    }
+    font-size: 0.875rem;
+}
+
+h1 {
+    @media screen and (min-width: 769px) {
+        font-size: 2.25rem;
+    }
+    font-size: 2rem;
+}
+h2 {
+    @media screen and (min-width: 769px) {
+        font-size: 1.5rem;
+    }
+    font-size: 1.25rem;
+}
+h3 {
+    @media screen and (min-width: 769px) {
+        font-size: 1.25rem;
+    }
+    font-size: 1rem;
+}
+h4 {
+    @media screen and (min-width: 769px) {
+        font-size: 1rem;
+    }
+    font-size: 0.875rem;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #000;
+}
+
+// color
+$color-grey: #bababa;
+$color-black-half: #4a4a4a;
+$color-black: #000;
+$color-blue: #68e1fc;
+
+.u-fg {
+    &--grey {
+        color: $color-grey;
+    }
+    &--black {
+        color: $color-black;
+    }
+    &--black-half {
+        color: $color-black-half;
+    }
+}
+
+.u-text-align {
+    &__center {
+        &--mobile {
+            @media screen and (max-width: 767px) {
+                text-align: center;
+            }
+        }
+        text-align: center;
+    }
+}
+
+.c-header {
+    @media screen and (min-width: 769px) {
+        padding: 32px 0;
+    }
+    padding: 16px 0;
+    box-shadow: #000 15 2;
+}
+
+.c-header-logo {
+    font-weight: 700px;
+    color: $color-black;
+}
+
+.c-header-menu {
+    &__list {
+        margin: 0;
+        list-style: none;
+        padding: 0;
+        a {
+            text-decoration: none;
+            color: $color-black-half;
+            @media screen and (min-width: 769px) {
+                &:last-child {
+                    padding-right: 0;
+                }
+                padding-right: 32px;
+            }
+            &:last-child {
+                padding-right: 0;
+            }
+            padding-right: 16px;
+            li {
+                display: inline;
+            }
+        }
+    }
+}
