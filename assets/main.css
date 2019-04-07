@@ -2545,13 +2545,23 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700px;
   color: #000; }
 
+.c-keunggulan-image {
+  width: auto;
+  height: 200px; }
+
+.c-hero {
+  min-height: 300px; }
+
+.c-image-partner {
+  width: 100px; }
+
 .c-header-menu__list {
   margin: 0;
   list-style: none;
   padding: 0; }
   .c-header-menu__list a {
     text-decoration: none;
-    color: #4a4a4a;
+    color: #ff5757;
     padding-right: 16px; }
     @media screen and (min-width: 769px) {
       .c-header-menu__list a {
@@ -2562,3 +2572,6 @@ h1, h2, h3, h4, h5, h6 {
       padding-right: 0; }
     .c-header-menu__list a li {
       display: inline; }
+
+.c-header-text {
+  text-decoration: underline; }

@@ -112,6 +112,18 @@ $color-blue: #68e1fc;
     font-weight: 700px;
     color: $color-black;
 }
+.c-keunggulan-image {
+    width: auto;
+    height: 200px;
+}
+
+.c-hero {
+    min-height: 300px;
+}
+
+.c-image-partner {
+    width: 100px;
+}
 
 .c-header-menu {
     &__list {
@@ -120,7 +132,7 @@ $color-blue: #68e1fc;
         padding: 0;
         a {
             text-decoration: none;
-            color: $color-black-half;
+            color: #ff5757;
             @media screen and (min-width: 769px) {
                 &:last-child {
                     padding-right: 0;
@@ -136,4 +148,8 @@ $color-blue: #68e1fc;
             }
         }
     }
+}
+
+.c-header-text {
+    text-decoration: underline;
 }
