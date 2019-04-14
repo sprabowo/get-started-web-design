@@ -101,6 +101,26 @@ $color-blue: #68e1fc;
     padding: 16px 0;
 }
 
+.c-login {
+    // text-align: center !important;
+    .title {
+        text-align: left;
+        @media screen and (min-width: 769px) {
+            color: yellow;
+        }
+        color: green;
+
+    }
+    .description {
+        color: red;
+        text-align: right;
+    }
+
+}
+
+
+
+
 .c-footer {
     @media screen and (min-width: 769px) {
         padding: 32px 0;
